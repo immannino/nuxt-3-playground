@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.1"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/better-sqlite3": "^7.5.0",
+    "axios": "^0.27.2",
+    "better-sqlite3": "^7.5.1"
+  }
+}

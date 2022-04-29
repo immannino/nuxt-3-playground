@@ -1,0 +1,38 @@
+:root {
+    --color: springgreen;
+}
+
+html, body { margin: 0; padding: 0; }
+
+body {
+    font-family: monospace;
+    min-height: 100vh;
+    height: 100%;
+	background: linear-gradient(-45deg, springgreen, cyan, blue, white);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+    .content {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
