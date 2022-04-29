@@ -40,3 +40,9 @@ npm run preview
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
+
+- https://github.com/nuxt/framework/issues/4235
+- https://12factor.net/
+- https://www.npmjs.com/package/h3?activeTab=readme
+- https://github.com/nuxt/framework/issues/4205
+- https://www.youtube.com/watch?v=JvNhGu5ELgs
